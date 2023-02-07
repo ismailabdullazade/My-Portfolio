@@ -59,6 +59,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    padding-top: 1rem;
 }
 
 section > h2, section > h5 {

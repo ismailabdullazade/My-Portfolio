@@ -18,24 +18,21 @@ const Services = () => {
            
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Optimizing the User experience.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Developing and Maintaining the User interface.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Implementing design on mobile websites.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Creating custom Icons, SVGs by Adobe Illustrator</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
+          
           </ul>
 
         </article>
@@ -48,66 +45,30 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Creating tools that improve site interaction regardless of the browser.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Using HTML, JavaScript/React and CSS to bring concepts to life.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Following SEO best practices.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Managing software workflow.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
+              <p>Fixing bugs and testing for usability.</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
+           
           </ul>
 
         </article>
 
-        <article className='service'>
-          <div className="service__head">
-            <h3>Content Creation</h3>
-          </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet  elit.</p>
-            </li>
-
-          </ul>
-
-        </article>
+     
 
       </div>
     </section>

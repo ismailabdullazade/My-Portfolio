@@ -1,9 +1,11 @@
 import React from 'react';
 import "./about.css";
-import ME from "../../assets/me-about.jpg"
+// import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/iso.jpeg"
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { FaAward } from 'react-icons/fa';
+import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const About = () => {
   return (
@@ -24,23 +26,24 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ Year working</small>
+              <small>2+ Year working</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>Listed down</small>
+              <AiOutlineCaretDown className='about__icon'/>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quaerat vitae? Ab ipsa tenetur, eum sunt rerum aliquid impedit consequuntur neque illo doloremque voluptas. Voluptas quis ullam in recusandae ipsum.</p>
+          <p>The State Customs Committee , A+A Group Of Companies , Hacklab , Miner.az , Veysəloğlu.</p>
 
           <a className='btn btn-primary' href="#contact">Let's Talk</a>
 

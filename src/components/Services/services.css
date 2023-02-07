@@ -1,6 +1,6 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap:3rem;
 }
 
@@ -10,6 +10,7 @@
     border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
+    /* padding-bottom: 2rem; */
 }
 
 .service:hover {
@@ -27,7 +28,7 @@
 
 .service__head h3 {
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -37,7 +38,7 @@
 
 .service__list li {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-bottom: 0.8rem;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width: 1024px) {

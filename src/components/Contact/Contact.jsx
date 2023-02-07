@@ -36,17 +36,9 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Ismail Abdullazade</h5>
-            <a href="https://m.me/ismayil.abdullazade.18">Send a message</a>
-          </article>
-
-          <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+994555550801</h5>
-            <a href="https://web.whatsapp.com/send>phone=+994555550801">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS*/}
