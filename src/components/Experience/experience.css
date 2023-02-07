@@ -24,14 +24,18 @@
 }
 
 .experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 2rem;
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* row-gap: 2rem; */
+    flex-wrap: wrap;
+
 }
 
 .experience__details {
     display: flex;
     gap: 1rem;
+    margin: 2rem;
     /* margin: 1rem; */
 }
 
@@ -64,6 +68,10 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__details{
+        margin: 0.4rem;
     }
 }
 
