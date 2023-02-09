@@ -1,4 +1,4 @@
-You can check easyly from here =>  https://ismail-portfolio715.netlify.app/
+You can check directly from here =>  https://ismail-portfolio715.netlify.app/
 
 # Getting Started with Create React App
 
