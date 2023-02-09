@@ -1,7 +1,7 @@
 import React from 'react'
 import "./portfolio.css"
 import IMG1 from '../../assets/nike_screen1.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/Screenshot_ytb.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>Nike Stores</h3>
+          <h3>Nike Store</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade/Nike-Store" className='btn' target="_blank">Github</a>
             <a href="https://nikegi-82fd80.netlify.app" className='btn btn-primary' target="_blank">Live</a>
@@ -29,10 +29,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>YouTube</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/ismailabdullazade" className='btn' target="_blank">Github</a>
-            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://github.com/ismailabdullazade/YouTube-Clone" className='btn' target="_blank">Github</a>
+            <a href="https://youtube-clone-gi.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
