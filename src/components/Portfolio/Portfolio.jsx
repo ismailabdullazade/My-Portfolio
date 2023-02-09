@@ -29,7 +29,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>YouTube</h3>
+          <h3>YouTube App</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade/YouTube-Clone" className='btn' target="_blank">Github</a>
             <a href="https://youtube-clone-gi.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
