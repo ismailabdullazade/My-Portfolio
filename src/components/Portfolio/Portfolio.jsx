@@ -24,7 +24,6 @@ const Portfolio = () => {
             <a href="https://nikegi-82fd80.netlify.app" className='btn btn-primary' target="_blank">Live</a>
           </div>
         </article>
-
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
@@ -32,7 +31,7 @@ const Portfolio = () => {
           <h3>YouTube App</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade/YouTube-Clone" className='btn' target="_blank">Github</a>
-            <a href="https://youtube-clone-gi.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://youtube-clone-gi.netlify.app/" className='btn btn-primary' target="_blank">Live</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -42,10 +41,11 @@ const Portfolio = () => {
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade" className='btn' target="_blank">Github</a>
-            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live</a>
           </div>
         </article>
-        <article className='portfolio__item'>
+
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
@@ -74,7 +74,7 @@ const Portfolio = () => {
             <a href="https://github.com/ismailabdullazade" className='btn' target="_blank">Github</a>
             <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   )

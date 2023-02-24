@@ -5,7 +5,7 @@ import ME from "../../assets/iso.jpeg"
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { FaAward } from 'react-icons/fa';
-import {AiOutlineCaretDown} from 'react-icons/ai'
+// import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const About = () => {
   return (
@@ -33,7 +33,7 @@ const About = () => {
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>Listed down</small>
-              <AiOutlineCaretDown className='about__icon'/>
+              {/* <AiOutlineCaretDown className='about__icon'/> */}
             </article>
 
             <article className='about__card'>
