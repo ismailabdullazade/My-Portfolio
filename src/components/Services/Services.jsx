@@ -49,7 +49,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
+              <p>Assess efficiency and speed</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
               <p>Using HTML, JavaScript/React and CSS to bring concepts to life.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Writing API</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
