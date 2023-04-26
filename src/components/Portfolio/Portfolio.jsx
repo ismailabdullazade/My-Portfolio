@@ -2,7 +2,7 @@ import React from 'react'
 import "./portfolio.css"
 import IMG1 from '../../assets/nike_screen1.png'
 import IMG2 from '../../assets/Screenshot_ytb.png'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/Screenshot 2023-04-26 224013.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -38,10 +38,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Fenix Global Foundation</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade" className='btn' target="_blank">Github</a>
-            <a href="https://dribble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live</a>
+            <a href="https://fenix-global-foundation.com/" className='btn btn-primary' target="_blank">Live</a>
           </div>
         </article>
 
