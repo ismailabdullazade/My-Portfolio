@@ -43,7 +43,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>The State Customs Committee , A+A Group Of Companies , Hacklab , Miner.az , Veysəloğlu.</p>
+          <p>The State Customs Committee , A+A Group Of Companies , Hacklab , Miner.az , Fenix Global Foundation, Data City, Dine Restaurant, Veysəloğlu.</p>
 
           <a className='btn btn-primary' href="#contact">Let's Talk</a>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './testimonials.css'
+import ref_letter from "../../assets/Reference letter İsmayil.pdf"
 import Avt1 from "../../assets/avatar1.jpg"
 import Avt2 from "../../assets/avatar2.jpg"
 import Avt3 from "../../assets/avatar3.jpg"
@@ -40,7 +41,12 @@ const Testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      {/* <h2>Testimonials</h2> */}
+
+      <div className='cta cta_ref_let'>
+        <a className='btn' href={ref_letter} download>Download Reference Letter</a>
+        
+    </div>
 
       <Swiper className="container testimonials__container"
            modules={[Pagination]}
