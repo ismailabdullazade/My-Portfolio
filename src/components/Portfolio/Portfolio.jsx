@@ -3,8 +3,8 @@ import "./portfolio.css"
 import IMG1 from '../../assets/nike_screen1.png'
 import IMG2 from '../../assets/Screenshot_ytb.png'
 import IMG3 from '../../assets/Screenshot 2023-04-26 224013.png'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG4 from '../../assets/QR_code.jpg'
+import IMG5 from '../../assets/password attacks.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
@@ -42,6 +42,26 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade" className='btn' target="_blank">Github</a>
             <a href="https://fenix-global-foundation.com/" className='btn btn-primary' target="_blank">Live</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>QR Code Reader</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ismailabdullazade/QR-Code-Reader" className='btn' target="_blank">Github</a>
+            <a href="https://moonlit-semifreddo-d35a7e.netlify.app/" className='btn btn-primary' target="_blank">Live</a>
+          </div>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Password Validation (RegEx)</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ismailabdullazade/Password-Validation-RegEx" className='btn' target="_blank">Github</a>
+            <a href="https://bucolic-arithmetic-311c33.netlify.app/" className='btn btn-primary' target="_blank">Live</a>
           </div>
         </article>
 
