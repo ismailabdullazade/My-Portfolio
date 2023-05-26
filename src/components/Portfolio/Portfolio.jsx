@@ -58,7 +58,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Password Validation (RegE)</h3>
+          <h3>Password Validation (RegEx)</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/ismailabdullazade/Password-Validation-RegEx" className='btn' target="_blank">Github</a>
             <a href="https://bucolic-arithmetic-311c33.netlify.app/" className='btn btn-primary' target="_blank">Live</a>
