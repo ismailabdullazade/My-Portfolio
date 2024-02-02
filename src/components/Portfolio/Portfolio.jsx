@@ -6,6 +6,7 @@ import IMG3 from '../../assets/Screenshot 2023-04-26 224013.png'
 import IMG4 from '../../assets/QR_code.jpg'
 import IMG5 from '../../assets/password attacks.jpg'
 import IMG6 from '../../assets/qr_generate.jpg'
+import IMG7 from '../../assets/logo-sm.png'
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,16 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Next-Auth</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/ismailabdullazade/Next-Auth-MasterClass" className='btn' target="_blank">Github</a>
+            <a href="https://next-auth-master-class-hw2y.vercel.app" className='btn btn-primary' target="_blank">Live</a>
+          </div>
+        </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
